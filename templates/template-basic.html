@@ -171,6 +171,12 @@
       font-weight: 400;
     }
 
+    .smallText {
+      font-size: 1em;
+      line-height: 1.3em;
+      font-weight: 400;
+    }
+
     .superTitle {
       font-size: 6em;
       line-height: 1.1em;
@@ -193,12 +199,6 @@
       font-size: 1.3em;
       line-height: 1.2em;
       font-weight: 800;
-    }
-
-    .smallTitle {
-      font-size: 0.75em;
-      line-height: 1em;
-      font-weight: 400;
     }
 
     .title {
@@ -233,6 +233,10 @@
       color: #161617 !important;
     }
 
+    .cl-soft {
+      color: #797979 !important;
+    }
+
     .cl-orange {
       color: #FD7825 !important;
     }
@@ -251,6 +255,10 @@
 
     .bg-dark {
       background-color: #161617 !important;
+    }
+
+    .bg-soft {
+      background-color: #797979 !important;
     }
 
     .bg-orange {
@@ -326,7 +334,7 @@
                     <tr>
                       <td width="600" align="left" valign="top" style="padding: 0;">
                         <p style="margin: 0 0 1rem; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 0.75em; line-height: 1em; color: #161617; text-align: center; mso-style-text-align: center; text-decoration: underline;" class="regularText cl-dark">
-                          <a href="{email.link}" style="font-weight: 400; color: #161617;" class="smallText cl-dark">Ver en la web</a>
+                          <a href="{email.link}" style="font-weight: 400; color: #161617;" class="cl-dark">Ver en la web</a>
                         </p>
                       </td>
                     </tr>
@@ -345,11 +353,13 @@
                     style="width:100%;">
                     <tr>
                       <td width="600" align="center" valign="top">
-                        <img
-                          src="../assets/logo-kaipa.png"
-                          width="91" height="" alt="logo KAiPA"
-                          style="display: block; margin:0; padding:0; border:none; width: 100%; max-width: 91px; height: auto; border-radius: 0;"
-                          border="0" class="img g-img">
+                        <a href="https://kaipa.pe/">
+                          <img
+                            src="../assets/logo-kaipa.png"
+                            width="91" height="" alt="logo KAiPA"
+                            style="display: block; margin:0; padding:0; border:none; width: 100%; max-width: 91px; height: auto; border-radius: 0;"
+                            border="0" class="img g-img">
+                        </a>
                       </td>
                     </tr>
                   </table>
@@ -380,7 +390,7 @@
               <tr><td height="5px" style="font-size:5px; line-height:5px;"></td></tr>
             </table>
 
-            <!-- + _img-gif-content-border - v3.0 - header -->
+            <!-- + _img-gif-content-border - v3.0 - header banner -->
             <table role="presentation" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#fefdfb" style="width:100%; background-color: #fefdfb;" class="bg-body">
               <tr><td height="20px" style="font-size:20px; line-height:20px;"></td></tr>
               <tr>
@@ -448,9 +458,9 @@
             </table>
 
             <!-- + _block-text - v3.0 - valor prima -->
-            <table role="presentation" width="600" border="0" cellpadding="0" cellspacing="0" style="border-radius: 25px; border: 1px solid #D9CAC2; background-color: #fdfaf7; font-size: 16px;" class="bg-light border-rd-25">
+            <table role="presentation" width="600" border="0" cellpadding="0" cellspacing="0" style="font-size: 16px; border-collapse: separate !important;" class="bg-white">
               <tr>
-                <td align="center" valign="top" style="padding: 60px 20%;">
+                <td align="center" valign="top" style="padding: 60px 20%; border-radius: 25px; border: 1px solid #D9CAC2; background-color: #fdfaf7;" class="border-rd-25">
                   <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%; font-size: 16px;">
                     <tr>
                       <td width="600" align="left" valign="top" style="padding: 0;">
@@ -461,14 +471,110 @@
                     <tr><td height="60" style="font-size:60px; line-height:60px;"></td></tr>
                     <tr>
                       <td width="600" align="center" valign="top">
-                        <img src="../assets/btn-section-prima-value.png" width="361" height="" alt="Botón: Donaremos el 20% de nuestras ganancias"
-                          style="display: block; margin:0; padding:0; border:none; width: 100%; max-width: 361px; height: auto; border-radius: 0; background: #fdfaf7;"
-                          border="0" class="img g-img bg-light">
+                        <a href="{link.prima}">
+                          <img src="../assets/btn-section-prima-value.png" width="361" height="" alt="Botón: Donaremos el 20% de nuestras ganancias"
+                            style="display: block; margin:0; padding:0; border:none; width: 100%; max-width: 361px; height: auto; border-radius: 0; background: #fdfaf7;"
+                            border="0" class="img g-img bg-light">
+                        </a>
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
+            </table>
+
+            <!-- + _cp-info-block-table-x4col - v3.0 - tabla coberturas -->
+            <table role="presentation" width="100%" align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#fefdfb" style="width:100%; background-color: #fefdfb;">
+              <tr><td height="30" style="font-size:30px; line-height:30px;"></td></tr>
+              <tr>
+                <td width="600" align="center" valign="middle" style="width: 100%; max-width: 600px; padding: 0px;">
+                  <div style="width: 100%;">
+                    <table role="presentation" width="100%" align="top" cellspacing="0" cellpadding="0" border="0"
+                      style="width:100%; font-size: 16px; background-color: #fdfaf7; border-radius: 0px;">
+                      <tr>
+                        <td width="600" align="center" valign="middle" style="width: 100%; max-width: 600px;">
+                          <tr style="display: block; width: 100%; max-width: 600px;">
+                            <td style="width: 150px; padding: 5px; border-right: 1px dotted #9A9A9A;">
+                              <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 1em; line-height: 1.1em; text-align: center; color: #161617;"
+                                class="regularText cl-dark">
+                                <span style="font-weight: 800; color: #161617;" class="regularText cl-dark">Nº Doc.</span>
+                              </p>
+                            </td>
+                            <td style="width: 150px; padding: 5px; border-right: 1px dotted #9A9A9A;">
+                              <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 1em; line-height: 1.1em; text-align: center; color: #161617;"
+                                class="regularText cl-dark">
+                                <span style="font-weight: 800; color: #161617;" class="regularText cl-dark">Nº Cuota</span>
+                              </p>
+                            </td>
+                            <td style="width: 150px; padding: 5px; border-right: 1px dotted #9A9A9A;">
+                              <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 1em; line-height: 1.1em; text-align: center; color: #161617;"
+                                class="regularText cl-dark">
+                                <span style="font-weight: 800; color: #161617;" class="regularText cl-dark">Venc.</span>
+                              </p>
+                            </td>
+                            <td style="width: 150px; padding: 5px; border-right: 0px dotted #9A9A9A;">
+                              <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 1em; line-height: 1.1em; text-align: center; color: #161617;"
+                                class="regularText cl-dark">
+                                <span style="font-weight: 800; color: #161617;" class="regularText cl-dark">Importe</span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr style="display: block; width: 100%; max-width: 600px;">
+                            <td style="width: 150px; padding: 5px; border-right: 1px dotted #9A9A9A; border-top: 1px dotted #9A9A9A;">
+                              <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 0.8em; line-height: 1em; padding-bottom: 5px; text-align: center; color: #161617;"
+                                class="cl-dark">
+                                <span style="font-weight: 400; color: #161617;" class="cl-dark">@{number}</span>
+                              </p>
+                            </td>
+                            <td style="width: 150px; padding: 5px; border-right: 1px dotted #9A9A9A; border-top: 1px dotted #9A9A9A;">
+                              <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 0.8em; line-height: 1em; padding-bottom: 5px; text-align: center; color: #161617;"
+                                class="cl-dark">
+                                <span style="font-weight: 400; color: #161617;" class="cl-dark">@{cuota}</span>
+                              </p>
+                            </td>
+                            <td style="width: 150px; padding: 5px; border-right: 1px dotted #9A9A9A; border-top: 1px dotted #9A9A9A;">
+                              <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 0.8em; line-height: 1em; padding-bottom: 5px; text-align: center; color: #161617;"
+                                class="cl-dark">
+                                <span style="font-weight: 400; color: #161617;" class="cl-dark">@{date}</span>
+                              </p>
+                            </td>
+                            <td style="width: 150px; padding: 5px; border-right: 0px dotted #9A9A9A; border-top: 1px dotted #9A9A9A;">
+                              <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 0.8em; line-height: 1em; padding-bottom: 5px; text-align: center; color: #161617;"
+                                class="cl-dark">
+                                <span style="font-weight: 400; color: #161617;" class="cl-dark">@{value}</span>
+                              </p>
+                            </td>
+                          </tr>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr><td height="45" style="font-size:45px; line-height:45px;"></td></tr>
+            </table>
+
+            <!-- + _img-gif-content-border - v3.0 - botón: ver cotización completa -->
+            <table role="presentation" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#fefdfb" style="width:100%; background-color: #fefdfb;" class="bg-body">
+              <tr><td height="20px" style="font-size:20px; line-height:20px;"></td></tr>
+              <tr>
+                <td align="center" valign="top" style="padding: 10px;">
+                  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                    <tr>
+                      <td width="600" align="center" valign="top">
+                        <a href="{link.cotizacion}">
+                          <img
+                            src="../assets/btn-section-ver-cotizacion.png"
+                            width="310" height="" alt="banner KAiPA"
+                            style="display: block; margin:0; padding:0; border:none; width: 100%; max-width: 310px; height: auto; border-radius: 0; background: #fefdfb;"
+                            border="0" class="img g-img bg-body">
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr><td height="60px" style="font-size:60px; line-height:60px;"></td></tr>
             </table>
 
             <!-- + _ly-border-line - v3.0 - border -->
@@ -481,97 +587,163 @@
               <tr><td height="15" style="font-size:15px; line-height:15px; background-color: #fefdfb;" class="bg-body"></td></tr>
             </table>
 
-            <!-- wip: -->
-
-
-            <!-- + _cp-info-block-table-x4col - v3.0 - table -->
-            <table role="presentation"  width="100%" align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#fefdfb" style="width:100%; background-color: #fefdfb;">
-            
+            <!-- + _img-gif-content-border - v3.0 - title-secondary -->
+            <table role="presentation" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#fefdfb" style="width:100%; background-color: #fefdfb;" class="bg-body">
+              <tr><td height="65px" style="font-size:65px; line-height:65px;"></td></tr>
               <tr>
-                <td height="5" style="font-size:5px; line-height:5px;"></td>
-              </tr>
-            
-              
-              <tr>
-                <td width="600" align="center" valign="middle" style="width: 100%; max-width: 600px; padding: 0px;">
-                  <div style="width: 100%;">
-                    <table role="presentation"  width="100%" align="top" cellspacing="0" cellpadding="0" border="0"
-                      style="width:100%; font-size: 16px; background-color: #fdfaf7; border-radius: 0px;">
-                      <tr>
-                        <td width="600" align="center" valign="middle" style="width: 100%; max-width: 600px;">
-            
-                          
-                      <tr style="display: block; width: 100%; max-width: 600px;">
-                        <td style="width: 150px; padding: 5px; border-right: 1px dotted #9A9A9A;">
-                          <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 1em; line-height: 1.1em; text-align: center; color: #161617;"
-                            class="regularText cl-dark">
-                            <span style="font-weight: 800; color: #161617;" class="regularText cl-dark">Nº Doc.</span>
-                          </p>
-                        </td>
-                        <td style="width: 150px; padding: 5px; border-right: 1px dotted #9A9A9A;">
-                          <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 1em; line-height: 1.1em; text-align: center; color: #161617;"
-                            class="regularText cl-dark">
-                            <span style="font-weight: 800; color: #161617;" class="regularText cl-dark">Nº Cuota</span>
-                          </p>
-                        </td>
-                        <td style="width: 150px; padding: 5px; border-right: 1px dotted #9A9A9A;">
-                          <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 1em; line-height: 1.1em; text-align: center; color: #161617;"
-                            class="regularText cl-dark">
-                            <span style="font-weight: 800; color: #161617;" class="regularText cl-dark">Venc.</span>
-                          </p>
-                        </td>
-                        <td style="width: 150px; padding: 5px; border-right: 0px dotted #9A9A9A;">
-                          <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 1em; line-height: 1.1em; text-align: center; color: #161617;"
-                            class="regularText cl-dark">
-                            <span style="font-weight: 800; color: #161617;" class="regularText cl-dark">Importe</span>
-                          </p>
-                        </td>
-                      </tr>
-            
-                      
-                      <tr style="display: block; width: 100%; max-width: 600px;">
-                        <td
-                          style="width: 150px; padding: 5px; border-right: 1px dotted #9A9A9A; border-top: 1px dotted #9A9A9A;">
-                          <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 0.8em; line-height: 1em; padding-bottom: 5px; text-align: center; color: #161617;"
-                            class="cl-dark">
-                            <span style="font-weight: 400; color: #161617;" class="cl-dark">@{number}</span>
-                          </p>
-                        </td>
-                        <td
-                          style="width: 150px; padding: 5px; border-right: 1px dotted #9A9A9A; border-top: 1px dotted #9A9A9A;">
-                          <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 0.8em; line-height: 1em; padding-bottom: 5px; text-align: center; color: #161617;"
-                            class="cl-dark">
-                            <span style="font-weight: 400; color: #161617;" class="cl-dark">@{cuota}</span>
-                          </p>
-                        </td>
-                        <td
-                          style="width: 150px; padding: 5px; border-right: 1px dotted #9A9A9A; border-top: 1px dotted #9A9A9A;">
-                          <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 0.8em; line-height: 1em; padding-bottom: 5px; text-align: center; color: #161617;"
-                            class="cl-dark">
-                            <span style="font-weight: 400; color: #161617;" class="cl-dark">@{date}</span>
-                          </p>
-                        </td>
-                        <td
-                          style="width: 150px; padding: 5px; border-right: 0px dotted #9A9A9A; border-top: 1px dotted #9A9A9A;">
-                          <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 0.8em; line-height: 1em; padding-bottom: 5px; text-align: center; color: #161617;"
-                            class="cl-dark">
-                            <span style="font-weight: 400; color: #161617;" class="cl-dark">@{value}</span>
-                          </p>
-                        </td>
-                      </tr>
-            
+                <td align="center" valign="top" style="padding: 10px;">
+                  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"
+                    style="width:100%;">
+                    <tr>
+                      <td width="600" align="center" valign="top">
+                        <img
+                          src="../assets/title-unete..png"
+                          width="530" height="" alt="Únete a miles de peruanos y transforma tu seguro en un motor de cambio social"
+                          style="display: block; margin:0; padding:0; border:none; width: 100%; max-width: 530px; height: auto; border-radius: 0; background: #fefdfb;"
+                          border="0" class="img g-img bg-body">
+                      </td>
+                    </tr>
+                  </table>
                 </td>
               </tr>
+              <tr><td height="20px" style="font-size:20px; line-height:20px;"></td></tr>
             </table>
-            </div>
-            </td>
-            </tr>
-            
-            <tr>
-              <td height="10" style="font-size:10px; line-height:10px;"></td>
-            </tr>
-            
+
+            <!-- + _tx-paragraph - v3.0 - paragraph -->
+            <table role="presentation" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#fefdfb"
+              style="width:100%; background-color: #fefdfb;">
+              <tr><td height="15" style="font-size:15px; line-height:15px;"></td></tr>
+              <tr>
+                <td align="center" valign="top" style="padding: 0 10%">
+                  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%; font-size: 16px;">
+                    <tr>
+                      <td width="600" align="center" valign="top" style="padding: 0;">
+                        <p style="margin: 0 0 1.5rem; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 1em; line-height: 1.3em; color: #161617; text-align: center; mso-style-text-align: center;" class="smallText cl-dark">Ya pagas por un seguro que solo usas en una emergencia; es momento de invertir en uno que, además, mejore nuestro Perú.</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr><td height="15" style="font-size:15px; line-height:15px;"></td></tr>
             </table>
+
+            <!-- + _img-gif-content-border - v3.0 - botón: contactar -->
+            <table role="presentation" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#fefdfb" style="width:100%; background-color: #fefdfb;" class="bg-body">
+              <tr><td height="20" style="font-size:20px; line-height:20px;"></td></tr>
+              <tr>
+                <td align="center" valign="top" style="padding: 10px;">
+                  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                    <tr>
+                      <td width="600" align="center" valign="top">
+                        <a href="{link.contacto}">
+                          <img
+                            src="../assets/btn-section-contacto.png"
+                            width="316" height="" alt="banner KAiPA"
+                            style="display: block; margin:0; padding:0; border:none; width: 100%; max-width: 316px; height: auto; border-radius: 0; background: #fefdfb;"
+                            border="0" class="img g-img bg-body">
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr><td height="65px" style="font-size:65px; line-height:65px;"></td></tr>
+            </table>
+
+            <!-- + _ly-border-line - v3.0 - border -->
+            <table role="presentation"  width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#fefdfb" style="width:100%; background-color: #fefdfb;">
+              <tr><td height="15" style="font-size:15px; line-height:15px; background-color: #fefdfb;" class="bg-body"></td></tr>
+              <tr>
+                <td align="center" valign="top" style="width: 100%; max-width: 600px; display: block; padding-top: 1em; margin-bottom: 1em; border-bottom: 1px solid #D9CAC2; background-color: #fefdfb;" class="bg-body">
+                </td>
+              </tr>
+              <tr><td height="15" style="font-size:15px; line-height:15px; background-color: #fefdfb;" class="bg-body"></td></tr>
+            </table>
+
+            <!-- + _tx-paragraph - v3.0 - texto footer -->
+            <table role="presentation" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#fefdfb"
+              style="width:100%; background-color: #fefdfb;">
+              <tr><td height="35" style="font-size:35px; line-height:35px;"></td></tr>
+              <tr>
+                <td align="center" valign="top" style="padding: 0">
+                  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%; font-size: 16px;">
+                    <tr>
+                      <td width="600" align="justify" valign="top" style="padding: 0;">
+                        <p style="margin: 0 0 1.5rem; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 1em; line-height: 1.3em; color: #797979; text-align: justify; mso-style-text-align: justify;" class="smallText cl-soft">Arriba se encuentra un resumen de las principales coberturas que podrían diferenciarse de otros planes. Esta cotización tiene una vigencia de 14 días. Los productos ofrecidos o promocionados por KAIPA S.A.C. son emitidos a través de un corredor de seguros debidamente autorizado. Aplican Términos y Condiciones.</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr><td height="15" style="font-size:15px; line-height:15px;"></td></tr>
+            </table>
+
+            <!-- + _ly-border-line - v3.0 - border -->
+            <table role="presentation"  width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#fefdfb" style="width:100%; background-color: #fefdfb;">
+              <tr><td height="15" style="font-size:15px; line-height:15px; background-color: #fefdfb;" class="bg-body"></td></tr>
+              <tr>
+                <td align="center" valign="top" style="width: 100%; max-width: 600px; display: block; padding-top: 1em; margin-bottom: 1em; border-bottom: 1px solid #D9CAC2; background-color: #fefdfb;" class="bg-body">
+                </td>
+              </tr>
+              <tr><td height="15" style="font-size:15px; line-height:15px; background-color: #fefdfb;" class="bg-body"></td></tr>
+            </table>
+
+            <!-- + _ly-space -->
+            <table role="presentation" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#fefdfb" style="width:100%; background-color: #fefdfb;">
+              <tr><td height="30" style="font-size:30px; line-height:30px;"></td></tr>
+            </table>
+            
+            <!-- + _footer - prado -->
+            <table role="presentation"  width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#fefdfb" style="width:100%; background-color: #fefdfb;">
+
+              <tr><td height="37" style="font-size:37px; line-height:37px;"></td></tr>
+
+              <tr>
+                <td align="center" valign="top" style="padding: 0">
+                  <table role="presentation"  width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%; font-size: 16px;">
+                    <tr>
+                      <td width="50%" align="left" valign="bottom" style="width: 50%; padding: 0;">
+                        <a href="https://kaipa.pe/">
+                          <img src="../assets/logo-kaipa.png" width="91" height="" alt="logotipo KAiPA"
+                            style="display: block; margin: 0; padding:0; border:none; width: 50%; max-width: 91px; height: auto; border-radius: 0; padding: 0;"
+                            border="0" class="img g-img">
+                        </a>
+                      </td>
+                      <td width="25%" align="right" valign="bottom" style="width: 25%; padding: 0;">
+                        <a href="https://kaipa.pe/">
+                          <img src="../assets/ico-tiktok.png" width="48" height="" alt="Síguenos en TikTok"
+                            style="display: block; margin: 0; padding:0; border:none; width: 25%; max-width: 48px; height: auto; border-radius: 0; padding: 0;"
+                            border="0" class="img g-img">
+                        </a>
+                      </td>
+                      <td width="25%" align="right" valign="bottom" style="width: 25%; padding: 0;">
+                        <a href="https://kaipa.pe/">
+                          <img src="../assets/ico-ig.png" width="48" height="" alt="Síguenos en Instagram"
+                            style="display: block; margin: 0; padding:0; border:none; width: 25%; max-width: 48px; height: auto; border-radius: 0; padding: 0;"
+                            border="0" class="img g-img">
+                        </a>
+                      </td>
+                    </tr>
+
+                    <tr><td height="45" style="font-size:45px; line-height:45px;"></td></tr>
+
+                    <tr>
+                      <td width="100%" align="left" valign="bottom" style="width: 100%; padding: 0;">
+                        <h5
+                          style="margin: 0 0 1.3rem; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 0.875em; line-height: 0em; font-weight: 400; text-align: left; mso-style-text-align: left; color: #797979;"
+                          class="cl-soft">KAIPA S.A.C.</h5>
+                        <p style="margin: 0 0 1rem; font-family: 'Trebuchet MS', sans-serif; mso-font-alt: 'Arial'; font-size: 0.875em; line-height: 1.1em; color: #797979; text-align: left; mso-style-text-align: left;" class="cl-soft"><span style="display: block; padding-bottom: 0.5rem;">Av. Javier Prado Este 1510.</span><span style="display: block;">Oficina 201, San Isidro</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr><td height="50" style="font-size:50px; line-height:50px;"></td></tr>
+
+            </table>
+
+            <!-- wip: -->
 
             <!-- !: components END -->
 
